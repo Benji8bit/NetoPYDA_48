@@ -110,3 +110,11 @@ else:
     print("Коробка №3")
 
 # Task 5
+
+number = 123456
+
+if (number//100000 + number%100000//10000 + number%10000//1000) == (number%1000//100 + number%100//10 + number%10):
+    print("Счастливый билет")
+else:
+    print("Несчастливый билет")
+
